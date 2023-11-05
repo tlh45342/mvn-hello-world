@@ -2,6 +2,12 @@
 
 This is a simple package that you can use git to pull down and test "mvn" with.
 
+## Clone
+
+```bash
+git clone https://github.com/tlh45342/mvn-hello-world.git
+```
+
 ## STRUCTURE
 
     ├── src                            src sub 
