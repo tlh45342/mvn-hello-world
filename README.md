@@ -16,6 +16,8 @@ This is a simple package that you can use git to pull down and test "mvn" with.
 
 # quick-note: lifcycle command 
 
+mvn command that executes a lifecycle choice, in this case the 'package' selection which would compile and build class.
+
 ```bash
 mvn package
 ```
