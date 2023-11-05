@@ -25,5 +25,8 @@ git clone https://github.com/tlh45342/mvn-hello-world.git
 mvn command that executes a lifecycle choice, in this case the 'package' selection which would compile and build class.
 
 ```bash
+cd mvn-hello-world
 mvn package
+cd target
+java -jar HelloWorld-1.0.jar
 ```
