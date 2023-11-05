@@ -4,15 +4,15 @@ This is a simple package that you can use git to pull down and test "mvn" with.
 
 ## STRUCTURE
 
-    ├── src                                  src 
-    ├       ├─ main                          main sub  
-    ├          ├─ java                       java sub 
-    ├             ├─ com                     com sub       
-    ├             ├   ├─ tlh45342            tlh45342 sub.  Note that tlh45342.com form the basis where code project is used at
-    ├             ├     └─ HelloWorld.java   The actual code.            
-    ├             └─ resources               Directory is blank - there are no resources, but structure is maintained.
-    ├── README.md                            This file
-    └── pom.xml                              "Project Object Model" this defines how mvn performs   
+    ├── src                           src sub 
+    |   └─ main                       main sub  
+    |      └─ java                    java sub 
+    |         ├─ com                  com sub       
+    |         |  ├─ tlh45342          tlh45342 sub.  Note that tlh45342.com form the basis where code project is used at
+    |         ├  └─ HelloWorld.java   The actual code.            
+    |         └─ resources            Directory is blank - there are no resources, but structure is maintained.
+    ├── README.md                     This file
+    └── pom.xml                      "Project Object Model" this defines how mvn performs   
 
 # quick-note: lifcycle command 
 
